@@ -34,7 +34,9 @@ export default function InfoBreadCrumb() {
                 ? "View and edit all your integrations"
                 : page.includes("workflows")
                   ? "View and edit all your integrations"
-                  : "Modify domain settings, change chatbot options, enter sales questions and train your bot to do what you want it to."}
+                  : page.includes("agents")
+                    ? "Manage your agents and their settings"
+                    : "Modify domain settings, change chatbot options, enter sales questions and train your bot to do what you want it to."}
       </p>
     </div>
   );

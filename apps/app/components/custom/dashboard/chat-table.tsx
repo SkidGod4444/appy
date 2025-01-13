@@ -18,7 +18,7 @@ export const Chats: React.FC<ChatsProps> = ({ chats }) => {
 
   return (
     <>
-      <div className="container border rounded-xl bg-card py-2">
+      <div className="border rounded-xl bg-card py-2">
         <Table>
           <TableHeader>
             <TableRow>

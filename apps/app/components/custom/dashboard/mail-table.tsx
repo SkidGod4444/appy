@@ -16,7 +16,7 @@ export const MailTable = ({ mails }: MailTableProps) => {
 
   return (
     <>
-      <div className="container rounded-xl border bg-card">
+      <div className="rounded-xl border bg-card">
         <Table>
           <TableHeader>
             <TableRow>
